@@ -8,6 +8,10 @@ body{
     color: #CEC7BF;
     font-weight: bolder;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 } 
 a, a:hover{
     text-decoration: none;
@@ -113,21 +117,20 @@ h1{
     -webkit-transition: all .5s ease;
 }
 .game-container{
-    
+    margin-top: 160px;
 }
 #stage {
-    background: #bbada0;
+    background: #3D737F;
     cursor: pointer;
     -moz-user-select: none;
     -khtml-user-select: none;
     user-select: none;
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 450px;
     top: 50%;
     left: 0;
     margin-top: -200px;
-    border: 1px solid #eee;
     z-index: 1;
 }
 
